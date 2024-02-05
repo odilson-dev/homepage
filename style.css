@@ -1,0 +1,21 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+/* HEADER */
+header div,
+header nav {
+  border: 1px solid black;
+}
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-transform: uppercase;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
