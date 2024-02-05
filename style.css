@@ -2,10 +2,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 /* HEADER */
-header div,
-header nav {
-  border: 1px solid black;
-}
 header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -18,4 +14,20 @@ ul {
 }
 a {
   text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid black;
+  height: 350px;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-networks a {
+  color: black;
 }
