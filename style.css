@@ -74,18 +74,21 @@ a {
   color: white;
 }
 .item-text-content {
-  padding: 0px 10px 15px 10px;
+  padding: 0px 15px 15px 15px;
   background-color: white;
 }
 .item-text-content h3 {
-  margin-top: 10px;
+  padding-top: 10px;
+}
+.item-text-content > p {
+  color: rgb(99, 99, 99);
 }
 .item-icon {
   padding-left: 50px;
 }
 
 .item-icon * {
-  height: 25px;
-  width: 25px;
-  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
 }
