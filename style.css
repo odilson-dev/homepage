@@ -22,12 +22,22 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid black;
-  height: 350px;
+  height: 450px;
 }
 .hero-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 30px;
+}
+.hero-image {
+  margin: auto;
+}
+.hero-image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 3px 7px 7px rgb(168, 168, 168);
 }
 
 /* PORTFOLIO SECTION */
