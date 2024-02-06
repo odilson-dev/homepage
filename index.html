@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage Project</title>
-    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="javascript/script.js" defer></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
     <!-- Roboto fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,6 +25,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -31,136 +36,153 @@
         <img src="images/logo/logok.png" alt="Logo" />
       </div>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+
+          <a href=""></a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </nav>
     </header>
-    <section class="hero">
-      <div class="hero-image">
-        <img src="images/profile/profile_pic.png" alt="Profile Picture" />
-      </div>
-      <div class="hero-text">
-        <p>Hello!<br />My name is Odilson <br />but you can call me hired.</p>
-        <div class="social-networks">
-          <a href="https://github.com/odilsoncode"
-            ><i class="devicon-github-original"></i
-          ></a>
-          <a href="https://github.com/odilsoncode"
-            ><i class="devicon-linkedin-plain"></i
-          ></a>
-          <a href="https://github.com/odilsoncode"
-            ><i class="devicon-twitter-original"></i
-          ></a>
+    <!-- MAIN SECTION -->
+    <main>
+      <section class="hero">
+        <div class="hero-image">
+          <img src="images/profile/profile_pic.png" alt="Profile Picture" />
         </div>
-      </div>
-    </section>
-    <section class="portfolio">
-      <h2>My Work</h2>
-      <div class="content">
-        <div class="content-item">
-          <p>Your project screenshot</p>
-          <div class="item-text-content">
-            <h3>
-              Project name<span class="item-icon"
-                ><a href="https://github.com/odilsoncode"
-                  ><img src="svg/github.svg" alt="" /></a
-                ><img src="svg/open-in-new.svg"
-              /></span>
-            </h3>
+        <div class="hero-text">
+          <p>Hello!<br />My name is Odilson <br />but you can call me hired.</p>
+          <div class="social-networks">
+            <a href="https://github.com/odilsoncode"
+              ><i class="devicon-github-original"></i
+            ></a>
+            <a href="https://github.com/odilsoncode"
+              ><i class="devicon-linkedin-plain"></i
+            ></a>
+            <a href="https://github.com/odilsoncode"
+              ><i class="devicon-twitter-original"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <h2>My Work</h2>
+        <div class="content">
+          <div class="content-item">
+            <p>Your project screenshot</p>
+            <div class="item-text-content">
+              <h3>
+                Project name<span class="item-icon"
+                  ><a href="https://github.com/odilsoncode"
+                    ><img src="svg/github.svg" alt="" /></a
+                  ><img src="svg/open-in-new.svg"
+                /></span>
+              </h3>
 
-            <p>
-              Short description of your project, just a couple sentences will do
-            </p>
+              <p>
+                Short description of your project, just a couple sentences will
+                do
+              </p>
+            </div>
+          </div>
+          <div class="content-item">
+            <p>Your project screenshot</p>
+            <div class="item-text-content">
+              <h3>
+                Project name<span class="item-icon"
+                  ><a href="https://github.com/odilsoncode"
+                    ><img src="svg/github.svg" alt="" /></a
+                  ><img src="svg/open-in-new.svg"
+                /></span>
+              </h3>
+              <p>
+                Short description of your project, just a couple sentences will
+                do
+              </p>
+            </div>
+          </div>
+          <div class="content-item">
+            <p>Your project screenshot</p>
+            <div class="item-text-content">
+              <h3>
+                Project name<span class="item-icon"
+                  ><a href="https://github.com/odilsoncode"
+                    ><img src="svg/github.svg" alt="" /></a
+                  ><img src="svg/open-in-new.svg"
+                /></span>
+              </h3>
+              <p>
+                Short description of your project, just a couple sentences will
+                do
+              </p>
+            </div>
+          </div>
+          <div class="content-item">
+            <p>Your project screenshot</p>
+            <div class="item-text-content">
+              <h3>
+                Project name<span class="item-icon"
+                  ><a href="https://github.com/odilsoncode"
+                    ><img src="svg/github.svg" alt="" /></a
+                  ><img src="svg/open-in-new.svg"
+                /></span>
+              </h3>
+              <p>
+                Short description of your project, just a couple sentences will
+                do
+              </p>
+            </div>
+          </div>
+          <div class="content-item">
+            <p>Your project screenshot</p>
+            <div class="item-text-content">
+              <h3>
+                Project name<span class="item-icon"
+                  ><a href="https://github.com/odilsoncode"
+                    ><img src="svg/github.svg" alt="" /></a
+                  ><img src="svg/open-in-new.svg"
+                /></span>
+              </h3>
+              <p>
+                Short description of your project, just a couple sentences will
+                do
+              </p>
+            </div>
+          </div>
+          <div class="content-item">
+            <p>Your project screenshot</p>
+            <div class="item-text-content">
+              <h3>
+                Project name<span class="item-icon"
+                  ><a href="https://github.com/odilsoncode"
+                    ><img src="svg/github.svg" alt="" /></a
+                  ><img src="svg/open-in-new.svg"
+                /></span>
+              </h3>
+              <p>
+                Short description of your project, just a couple sentences will
+                do
+              </p>
+            </div>
           </div>
         </div>
-        <div class="content-item">
-          <p>Your project screenshot</p>
-          <div class="item-text-content">
-            <h3>
-              Project name<span class="item-icon"
-                ><a href="https://github.com/odilsoncode"
-                  ><img src="svg/github.svg" alt="" /></a
-                ><img src="svg/open-in-new.svg"
-              /></span>
-            </h3>
-            <p>
-              Short description of your project, just a couple sentences will do
-            </p>
-          </div>
-        </div>
-        <div class="content-item">
-          <p>Your project screenshot</p>
-          <div class="item-text-content">
-            <h3>
-              Project name<span class="item-icon"
-                ><a href="https://github.com/odilsoncode"
-                  ><img src="svg/github.svg" alt="" /></a
-                ><img src="svg/open-in-new.svg"
-              /></span>
-            </h3>
-            <p>
-              Short description of your project, just a couple sentences will do
-            </p>
-          </div>
-        </div>
-        <div class="content-item">
-          <p>Your project screenshot</p>
-          <div class="item-text-content">
-            <h3>
-              Project name<span class="item-icon"
-                ><a href="https://github.com/odilsoncode"
-                  ><img src="svg/github.svg" alt="" /></a
-                ><img src="svg/open-in-new.svg"
-              /></span>
-            </h3>
-            <p>
-              Short description of your project, just a couple sentences will do
-            </p>
-          </div>
-        </div>
-        <div class="content-item">
-          <p>Your project screenshot</p>
-          <div class="item-text-content">
-            <h3>
-              Project name<span class="item-icon"
-                ><a href="https://github.com/odilsoncode"
-                  ><img src="svg/github.svg" alt="" /></a
-                ><img src="svg/open-in-new.svg"
-              /></span>
-            </h3>
-            <p>
-              Short description of your project, just a couple sentences will do
-            </p>
-          </div>
-        </div>
-        <div class="content-item">
-          <p>Your project screenshot</p>
-          <div class="item-text-content">
-            <h3>
-              Project name<span class="item-icon"
-                ><a href="https://github.com/odilsoncode"
-                  ><img src="svg/github.svg" alt="" /></a
-                ><img src="svg/open-in-new.svg"
-              /></span>
-            </h3>
-            <p>
-              Short description of your project, just a couple sentences will do
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="contact">
-      <h2>Contact me</h2>
-      <p>Please contact me, if you think our work could be mutual beneficial</p>
-      <a href="mailto:italisodilsonwoodly@gmail.com"
-        >italisodilsonwoodly@gmail.com</a
-      >
-    </section>
+      </section>
+      <section class="contact">
+        <h2>Contact me</h2>
+        <p>
+          Please contact me, if you think our work could be mutual beneficial
+        </p>
+        <img src="svg/email-outline.svg" class="mail-icon" alt="email-icon" />
+        <a href="mailto:italisodilsonwoodly@gmail.com"
+          >italisodilsonwoodly@gmail.com</a
+        >
+      </section>
+    </main>
   </body>
 </html>
